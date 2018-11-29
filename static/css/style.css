@@ -1,0 +1,34 @@
+body {
+	background-color: #000;
+	color: #DDD;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 90%;
+	line-height: 1.5;
+	margin: 0;
+}
+
+header, footer {
+	background-color: #333;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+	overflow: auto;
+}
+
+a {
+	color: #0BF;
+}
+
+.header-link {
+	text-decoration: none;
+}
+
+.blinky {
+	animation: blinker 1s steps(1, start) infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
