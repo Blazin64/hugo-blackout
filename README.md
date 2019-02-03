@@ -1,6 +1,6 @@
 # Blackout
 
-Feb 02, 2019 Update: I will return to development in early May. (Unless I can find some free time during this semester.)
+Feb 02, 2019 Update: I will return to developing this theme in early May, unless I can find some free time during this semester.
 
 Are all those light Hugo themes out there burning your eyes? Well, Blackout may be the solution for your problem!
 
