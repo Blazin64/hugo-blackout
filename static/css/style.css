@@ -1,22 +1,78 @@
+:root{
+	--main-bg: #000;
+	--content-bg: #333;
+	--text: #FFF;
+	--link: #F00;
+	--page-bg: #333;
+	--page-text: #FFF;
+	--active-page-bg: #777;
+	--active-page-text: #FFF;
+	--hover-page-bg: #FFF;
+	--hover-page-text: #000;
+}
 body {
-	background-color: #000;
-	color: #DDD;
+	background-color: var(--main-bg);
+	color: var(--text);
 	font-family: 'Source Code Pro', monospace;
-	font-size: 90%;
+	font-size: 100%;
 	line-height: 1.5;
 	margin: 0;
 }
-
-header, footer {
-	background-color: #333;
+p code {
+	background-color: var(--main-bg);
+	color: var(--text);
+	padding: 0.25rem;
+}
+header, footer{
+	background-color: var(--content-bg);
 	padding: 1rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	margin-top: 1rem;
 	overflow: auto;
 }
-
 a {
-	color: #0BF;
+	color: var(--link);
+}
+article{
+	background-color: var(--content-bg);
+	padding: 1rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	overflow: auto;
+	border-radius: 8px;
+}
+.pagination {
+  display: block;
+  width: 100%;
+  min-width: 380px;
+  font-size: 1.0em;
+  margin-left: -40px;
+}
+.pagination li{
+  display: block;
+  float: left;
+}
+.pagination a{
+  color: var(--page-text);
+  background: var(--page-bg);
+  text-decoration: none;
+  padding: 5px 7px;
+  margin-right: 2px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.pagination li a:hover {
+  background-color: var(--hover-page-bg);
+  color: var(--hover-page-text);
+  text-decoration: none;
+}
+.pagination li.active a {
+  background-color: var(--active-page-bg);
+  color: var(--active-page-text);
+  text-decoration: none;
+}
+[data-pseudo-content]::before {
+  content: attr(data-pseudo-content);
 }
 
 .header-link {
