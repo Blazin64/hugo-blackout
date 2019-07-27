@@ -6,8 +6,8 @@ license = "MIT"
 licenselink = "https://github.com/Blazin64/hugo-blackout/blob/master/LICENSE"
 description = ""
 homepage = "https://github.com/Blazin64/hugo-blackout/"
-tags = []
-features = []
+tags = ["blog","dark theme"]
+features = ["pagination","syntax highlighting"]
 min_version = "0.41"
 
 [author]
