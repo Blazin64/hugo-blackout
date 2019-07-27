@@ -3,12 +3,12 @@
 	--content-bg: #333;
 	--text: #FFF;
 	--link: #F00;
-	--page-bg: #333;
-	--page-text: #FFF;
-	--active-page-bg: #777;
-	--active-page-text: #FFF;
-	--hover-page-bg: #FFF;
-	--hover-page-text: #000;
+	--page-nav-bg: #333;
+	--page-nav-text: #FFF;
+	--active-page-nav-bg: #777;
+	--active-page-nav-text: #FFF;
+	--hover-page-nav-bg: #FFF;
+	--hover-page--nav-text: #000;
 }
 body {
 	background-color: var(--main-bg);
@@ -53,8 +53,8 @@ article{
   float: left;
 }
 .pagination a{
-  color: var(--page-text);
-  background: var(--page-bg);
+  color: var(--page-nav-text);
+  background: var(--page-nav-bg);
   text-decoration: none;
   padding: 5px 7px;
   margin-right: 2px;
@@ -62,13 +62,13 @@ article{
   border-radius: 2px;
 }
 .pagination li a:hover {
-  background-color: var(--hover-page-bg);
-  color: var(--hover-page-text);
+  background-color: var(--hover-page-nav-bg);
+  color: var(--hover-page-nav-text);
   text-decoration: none;
 }
 .pagination li.active a {
-  background-color: var(--active-page-bg);
-  color: var(--active-page-text);
+  background-color: var(--active-page-nav-bg);
+  color: var(--active-page-nav-text);
   text-decoration: none;
 }
 [data-pseudo-content]::before {
