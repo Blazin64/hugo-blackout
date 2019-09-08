@@ -23,7 +23,7 @@ p code {
 	color: var(--text);
 	padding: 0.25rem;
 }
-header, footer{
+header#prime, footer{
 	background-color: var(--content-bg);
 	padding: 1rem;
 	margin-bottom: 1rem;
@@ -33,7 +33,7 @@ header, footer{
 a {
 	color: var(--link);
 }
-article{
+article#content{
 	background-color: var(--content-bg);
 	padding: 1rem;
 	margin-bottom: 1rem;
