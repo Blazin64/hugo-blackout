@@ -1,4 +1,10 @@
-{{define "main"}}
-<p>Error 404.</p>
-<p>Abandon all hope, he who enters here!</p>
-{{end}}
+
+{{ define "main"}}
+    <main id="main">
+      <div>
+       <h2>ERROR 404</h2>
+       <h2>Well... this page doesn't exist.</h2>
+       <h2 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h2>
+      </div>
+    </main>
+{{ end }}
