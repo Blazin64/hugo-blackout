@@ -19,7 +19,7 @@ body {
 	margin: 0;
 }
 p code {
-	background-color: var(--main-bg);
+	background-color: #272822;
 	color: var(--text);
 	padding: 0.25rem;
 }
