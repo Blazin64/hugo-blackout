@@ -13,7 +13,7 @@
       </div>
       <div>
         <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
-        {{$paginator := .Paginate (where .Pages "Type" "post")}}
+        {{$paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections)}}
         {{ range .Paginator.Pages }}
             <article id="content">
               <!-- this <div> includes the title summary -->
