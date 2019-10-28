@@ -33,5 +33,11 @@
         <!-- Force the page nav to be above the footer instead of next to it. -->
         <p style="color: #FFF; visibility: hidden;" data-pseudo-content="."></p>
       </div>
+      <div id="tag-cloud">
+        <h2>Tags</h2>
+        {{ range .Site.Taxonomies.tags.ByCount }}
+          <span id="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</span>
+        {{ end }}
+      </div>
     </main>
 {{ end }}
