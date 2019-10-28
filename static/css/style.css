@@ -8,7 +8,7 @@
 	--active-page-nav-bg: #777;
 	--active-page-nav-text: #FFF;
 	--hover-page-nav-bg: #FFF;
-	--hover-page--nav-text: #000;
+	--hover-page-nav-text: #000;
 }
 body {
 	background-color: var(--main-bg);
