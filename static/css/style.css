@@ -46,6 +46,9 @@ article#content{
 	align-content: center;
 	text-align: center;
 }
+.homepage-content img {
+	max-width: 100%;
+}
 .pagination {
   display: block;
   width: 100%;
