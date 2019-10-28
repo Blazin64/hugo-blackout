@@ -32,6 +32,7 @@ header#prime, footer{
 }
 a {
 	color: var(--link);
+	text-decoration: none;
 }
 article#content{
 	background-color: var(--content-bg);
