@@ -18,10 +18,6 @@ body {
 	line-height: 1.5;
 	margin: 0;
 }
-.homepage-content {
-	align-content: center;
-	text-align: center;
-}
 p code {
 	background-color: #272822;
 	color: var(--text);
@@ -44,6 +40,10 @@ article#content{
 	margin-top: 1rem;
 	overflow: auto;
 	border-radius: 8px;
+}
+.homepage-content {
+	align-content: center;
+	text-align: center;
 }
 .pagination {
   display: block;
