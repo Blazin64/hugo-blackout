@@ -18,10 +18,17 @@ body {
 	line-height: 1.5;
 	margin: 0;
 }
+div#tag-cloud {
+	margin-left: 4%;
+	margin-right: 4%;
+}
 p code {
 	background-color: #272822;
 	color: var(--text);
 	padding: 0.25rem;
+}
+span#tag {
+	displaY: inline-block;
 }
 header#prime, footer{
 	background-color: var(--content-bg);
