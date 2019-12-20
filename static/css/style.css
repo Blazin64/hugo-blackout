@@ -1,9 +1,9 @@
 :root{
 	--main-bg: #000;
-	--content-bg: #333;
+	--content-bg: #222;
 	--text: #FFF;
 	--link: #F00;
-	--page-nav-bg: #333;
+	--page-nav-bg: #222;
 	--page-nav-text: #FFF;
 	--active-page-nav-bg: #777;
 	--active-page-nav-text: #FFF;
@@ -23,12 +23,12 @@ div#tag-cloud {
 	margin-right: 4%;
 }
 p code {
-	background-color: #272822;
+	background-color: #111;
 	color: var(--text);
 	padding: 0.25rem;
 }
 span#tag {
-	displaY: inline-block;
+	display: inline-block;
 }
 header#prime, footer{
 	background-color: var(--content-bg);
