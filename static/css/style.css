@@ -57,6 +57,9 @@ article img {
 	margin: auto;
 	max-width: 100%;
 }
+h1#title {
+	text-align: center;
+}
 .homepage-content {
 	align-content: center;
 	text-align: center;
@@ -66,10 +69,6 @@ article img {
 }
 .pagination {
   display: block;
-  width: 100%;
-  min-width: 380px;
-  font-size: 1.0em;
-  margin-left: -40px;
 }
 .pagination li{
   display: block;
