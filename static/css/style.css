@@ -68,11 +68,11 @@ h1#title {
 	max-width: 100%;
 }
 .pagination {
-  display: block;
+  text-align: center;
 }
 .pagination li{
-  display: block;
-  float: left;
+  display: inline;
+	margin-left: -0.6em;
 }
 .pagination a{
   color: var(--page-nav-text);
