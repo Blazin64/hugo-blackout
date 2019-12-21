@@ -13,7 +13,7 @@
 body {
 	background-color: var(--main-bg);
 	color: var(--text);
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'liberation_monoregular', monospace;
 	font-size: 100%;
 	line-height: 1.5;
 	margin: 0;
