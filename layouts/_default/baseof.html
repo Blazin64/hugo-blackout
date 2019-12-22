@@ -11,6 +11,7 @@
     {{ end }}</title>
   </head>
   <body>
+  <div id="body-content">
   {{block "header" .}}
     <header id="prime">
     	<div>
@@ -28,6 +29,7 @@
     {{ end }}
     {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+  </div>
     <footer>
       <span>
         &copy; {{ .Site.LastChange.Year }} {{ .Site.Title }}
