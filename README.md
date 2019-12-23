@@ -22,7 +22,7 @@ I recommend taking a look at the [Install Hugo](https://gohugo.io/getting-starte
 ```
 hugo site new YOUR_SITE_NAME
 ```
-There will now be a new directory with the name you used. It has the basic structure of a Hugo site inside.
+  * There will now be a new directory with the name you used. It has the basic structure of a Hugo site inside.
 
 2. Navigate into this new directory, delete the `archetypes` directory, and install the Blackout theme. (Don't worry, the theme already has an archetype file built in.)
 ```
@@ -37,7 +37,7 @@ git submodule add https://github.com/Blazin64/hugo-blackout.git themes/blackout
 echo 'paginate = "5"' >> config.toml
 echo 'theme = "blackout"' config.toml
 ```
-You may want to make further edits to `config.toml`, such as changing the default `title` entry.
+  * You may want to make further edits to `config.toml`, such as changing the default `title` entry.
 
 4. Create a new post and add some content to it. (I use the `vi` text editor here, but anything else will work just as well.)
 ```
@@ -49,14 +49,14 @@ vi posts/example-post.md
 ```
 hugo server -D
 ```
-Navigate to http://localhost:1313 in your web browser to see it. Kill the Hugo server with <kbd>ctrl</kbd> + <kbd>c</kbd> when you're done.
+  * Navigate to http://localhost:1313 in your web browser to see it. Kill the Hugo server with <kbd>ctrl</kbd> + <kbd>c</kbd> when you're done.
 
 6. Once everything is to your liking, set `draft: false` at the top of your post file and generate your pages. (I use the `vi` text editor here, but anything else will work just as well.)
 ```
 vi posts/example-post.md
 hugo
 ```
-Hugo will put your generated pages under the `public` directory.
+  * Hugo will put your generated pages under the `public` directory.
 
 7. Publish your site. Put the contents of the `public` directory on a server. [GitHub Pages](https://pages.github.com/) is good option, and it's free!
 
