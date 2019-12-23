@@ -62,6 +62,14 @@ hugo
 
 Repeat steps 4-7 whenever you want to add more content.
 
+
+### Theme Updates
+
+Updating the theme is pretty simple. Open a terminal in your site directory and run:
+```
+git submodule update --remote themes/blackout
+```
+
 ### Customization
 
 A nice set of color variables is at the top of `static/css/style.css` to make it easy to modify the theme's colors to fit your tastes. The variable names are all fairly self-explanatory.
