@@ -74,7 +74,7 @@ git submodule update --remote themes/blackout
 
 A nice set of color variables is at the top of `static/css/style.css` to make it easy to modify the theme's colors to fit your tastes. The variable names are all fairly self-explanatory.
 
-You will probably want to display a logo and a quick description at the top of the home page. The best way to do this, once you have generated a new site, is to add an `_index.md` file under its `content` directory. Make sure to include a slash in front of the file name and remember that Hugo assumes all images are in your site's `static` directory. The CSS included with this theme will automatically center the content of your `_index.md` file.
+You will probably want to display a logo and a quick description at the top of the home page. The best way to do this, once you have generated a new site, is to add an `_index.md` file under its `content` directory. If you use a relative URL (like in the example below) for any images you want to embed, make sure to include a slash at the beginning. Also, remember that Hugo assumes all images are in your site's `static` directory. The CSS styling included with this theme will automatically center the content of your `_index.md` file.
 
 Example `_index.md`:
 ```
