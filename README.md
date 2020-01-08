@@ -19,12 +19,15 @@ I recommend taking a look at the [Install Hugo](https://gohugo.io/getting-starte
 ##### Setup
 
 1. Generate a new site. Open a terminal in a directory of your choice and run:
+
 ```
 hugo site new YOUR_SITE_NAME
 ```
+
   * There will now be a new directory with the name you used. It has the basic structure of a Hugo site inside.
 
 2. Navigate into this new directory, delete the `archetypes` directory, and install the Blackout theme. (Don't worry, the theme already has an archetype file built in.)
+
 ```
 cd YOUR_SITE_NAME
 rm -r archetypes
@@ -33,29 +36,44 @@ git submodule add https://github.com/Blazin64/hugo-blackout.git themes/blackout
 ```
 
 3. Enable the Blackout theme and set Hugo to display 5 items per page.
+
+  * Open your site's configuration file with your favorite text editor (I use the `vi` text editor here, but anything else will work just as well.)
+
 ```
-echo 'paginate = "5"' >> config.toml
-echo 'theme = "blackout"' config.toml
+vi config.toml
 ```
+
+  * Add the following:
+
+```
+paginate = "5"
+theme = "blackout"
+```
+
   * You may want to make further edits to `config.toml`, such as changing the default `title` entry.
 
-4. Create a new post and add some content to it. (I use the `vi` text editor here, but anything else will work just as well.)
+4. Create a new post and add some content to it.
+
 ```
 hugo new posts/example-post.md
 vi posts/example-post.md
 ```
 
 5. Test your new site. (The `-D` option allows draft posts to be shown.)
+
 ```
 hugo server -D
 ```
+
   * Navigate to http://localhost:1313 in your web browser to see it. Kill the Hugo server with <kbd>ctrl</kbd> + <kbd>c</kbd> when you're done.
 
 6. Once everything is to your liking, set `draft: false` at the top of your post file and generate your pages. (I use the `vi` text editor here, but anything else will work just as well.)
+
 ```
 vi posts/example-post.md
 hugo
 ```
+
   * Hugo will put your generated pages under the `public` directory.
 
 7. Publish your site. Put the contents of the `public` directory on a server. [GitHub Pages](https://pages.github.com/) is good option, and it's free!
@@ -66,6 +84,7 @@ Repeat steps 4-7 whenever you want to add more content.
 ### Theme Updates
 
 Updating the theme is pretty simple. Open a terminal in your site directory and run:
+
 ```
 git submodule update --remote themes/blackout
 ```
@@ -77,6 +96,7 @@ A nice set of color variables is at the top of `static/css/style.css` to make it
 You will probably want to display a logo and a quick description at the top of the home page. The best way to do this, once you have generated a new site, is to add an `_index.md` file under its `content` directory. If you use a relative URL (like in the example below) for any images you want to embed, make sure to include a slash at the beginning. Also, remember that Hugo assumes all images are in your site's `static` directory. The CSS styling included with this theme will automatically center the content of your `_index.md` file.
 
 Example `_index.md`:
+
 ```
 ![logo](/your-logo-here.png)
 
