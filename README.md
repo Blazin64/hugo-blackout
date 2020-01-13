@@ -21,7 +21,7 @@ I recommend taking a look at the [Install Hugo](https://gohugo.io/getting-starte
 1. Generate a new site. Open a terminal in a directory of your choice and run:
 
 ```
-hugo site new YOUR_SITE_NAME
+hugo new site YOUR_SITE_NAME
 ```
 
   * There will now be a new directory with the name you used. It has the basic structure of a Hugo site inside.
