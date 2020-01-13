@@ -80,6 +80,15 @@ header#prime, footer{
 h1#title {
 	text-align: center;
 }
+kbd {
+	box-shadow: 0 0.25em 0 0.25em #999, 0 0.25em 0 0.3125em #000;
+	background-color: #DDD;
+	border: 0.125em solid #000;
+	border-radius: 0.3125em;
+	color: #000;
+	padding: 0 0.375em;
+	margin: 0 0.375em;
+}
 span#tag {
 	display: inline-block;
 }
