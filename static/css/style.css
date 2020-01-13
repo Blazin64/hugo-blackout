@@ -40,7 +40,7 @@ div#message404 {
 div#body-content {
 	flex: 1 0 auto;
 }
-p code {
+:not(.chroma) > code {
 	background-color: #111;
 	color: var(--text);
 	padding: 0.25em;
