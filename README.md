@@ -6,6 +6,8 @@ This theme was created with a focus on minimalism, both in terms of code and vis
 
 Never heard of Hugo? It's the best static site generator, hands down! Check it out at [gohugo.io](https://gohugo.io/)!
 
+Note: Please use the [GitLab repository](https://gitlab.com/Blazin64/hugo-blackout). The [GitHub repository](https://github.com/Blazin64/hugo-blackout) is only a mirror.
+
 ![screenshot](https://raw.githubusercontent.com/Blazin64/hugo-blackout/master/images/screenshot.png)
 
 ### Getting Started
