@@ -29,6 +29,8 @@ a {
 }
 article#content{
 	background-color: var(--content-bg);
+	font-family: 'liberation_sansregular', sans;
+	font-size: 100%;
 	padding: 1em;
 	margin-bottom: 1em;
 	margin-top: 1em;
