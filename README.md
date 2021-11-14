@@ -78,7 +78,7 @@ hugo
 
   * Hugo will put your generated pages under the `public` directory.
 
-7. Publish your site. Put the contents of the `public` directory on a server. [GitHub Pages](https://pages.github.com/) is good option, and it's free!
+7. Publish your site. Put the contents of the `public` directory on a server. [GitHub Pages](https://pages.github.com/) and [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) are great ways to publish a site for free!
 
 Repeat steps 4-7 whenever you want to add more content.
 
